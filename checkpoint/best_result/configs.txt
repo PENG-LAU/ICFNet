@@ -1,0 +1,46 @@
+==> Args:
+  actions: *
+  batch_size: 1024
+  channel: 128
+  checkpoint: checkpoint/0103_2221_48_1_refine
+  crop_uv: 0
+  d_hid: 1024
+  data_augmentation: 1
+  dataset: h36m
+  downsample: 1
+  frames: 1
+  gpu: 0
+  joints_left: [4, 5, 6, 11, 12, 13]
+  joints_right: [1, 2, 3, 14, 15, 16]
+  keypoints: cpn_ft_h36m_dbb
+  layers: 3
+  lr: 0.0005
+  lr_decay: 0.95
+  lr_decay_epoch: 5
+  lr_decay_large: 0.5
+  lr_refine: 0.0001
+  n_joints: 17
+  nepoch: 20
+  out_all: 1
+  out_channels: 3
+  out_joints: 17
+  pad: 0
+  previous_best: inf
+  previous_dir: checkpoint/mymodule
+  previous_name: 
+  previous_refine_name: 
+  refine: True
+  refine_reload: False
+  reverse_augmentation: False
+  root_joint: 0
+  root_path: dataset/
+  stride: 1
+  subjects_test: S9,S11
+  subjects_train: S1,S5,S6,S7,S8
+  subset: 1
+  test: False
+  test_augmentation: True
+  token_dim: 512
+  train: 1
+  workers: 0
+==> Args:
