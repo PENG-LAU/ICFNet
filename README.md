@@ -1,4 +1,4 @@
-# ICFNet: Interactive-Complementary Fusion Network for Monocular 3D Human Pose Estimation
+# (NEUROCOMPUTING 2025)ICFNet: Interactive-Complementary Fusion Network for Monocular 3D Human Pose Estimation
 
 A 3D HPE Method In Monocular Image.
 ***
